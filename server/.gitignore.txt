@@ -1,0 +1,5 @@
+/Lib/
+/.idea/
+/__pycache__/
+/include/
+/Scripts/
