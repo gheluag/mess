@@ -9,6 +9,7 @@ CBase = declarative_base()
 
 
 class Client(CBase):
+
     __tablename__ = 'client'
 
     id = Column(Integer(), primary_key=True)
@@ -19,6 +20,7 @@ class Client(CBase):
 
 
 class History(CBase):
+
     __tablename__ = 'history'
 
     id = Column(Integer(), primary_key=True)
